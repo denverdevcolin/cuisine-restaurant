@@ -89,7 +89,9 @@ table {
 /* HEADER/NAV
 /*******************************************/
 
-
+.nav div, .navbar li {
+  float: left;
+}
 
 /******************************************
 /* TYPOGRAPHY
@@ -97,6 +99,12 @@ table {
 
 .heading-bold-font {
   font: 700 3em 'PT Serif';
+}
+
+.nav, .navbar a {
+  text-decoration: none;
+  font: 300 1em 'PT Serif';
+  color: black;
 }
 
 /******************************************
@@ -125,3 +133,8 @@ table {
 /* BUTTONS
 /*******************************************/
 
+.welcome button {
+  background-color: rgb(238,141,52);
+  color: white;
+  border: none;
+}
