@@ -85,6 +85,10 @@ table {
   color: rgb(238,141,52);
 }
 
+.fa-caret-down {
+  padding-left: 10px;
+}
+
 /******************************************
 /* HEADER/NAV
 /*******************************************/
@@ -93,12 +97,28 @@ table {
   float: left;
 }
 
+.nav div img {
+  width: 100%;
+}
+
+.nav div {
+  margin: 10px 0 0 50px;
+}
+
+.navbar li {
+  margin: 30px;
+}
+
+.navbar ul {
+  margin-left: 60px;
+}
+
 /******************************************
 /* TYPOGRAPHY
 /*******************************************/
 
 .heading-bold-font {
-  font: 700 3em 'PT Serif';
+  font: 700 4em 'PT Serif';
 }
 
 .nav, .navbar a {
@@ -126,15 +146,48 @@ table {
 }
 
 .welcome {
-  padding: 100px 50px;
+  padding: 100px;
+}
+
+.welcome h1 {
+  text-align: left;
+  width: 50%;
+}
+
+.welcome span {
+  float: left;
+  padding-top: 20px;
+  width: 100px;
+  font-size: 1.3em;
 }
 
 /******************************************
 /* BUTTONS
 /*******************************************/
 
+.welcome form {
+  margin-top: 30px;
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  left: 25px;
+  color: gray;
+}
+
+.welcome input {
+  width: 40%;
+  height: 50px;
+  padding-left: 30px;
+  
+}
+
 .welcome button {
   background-color: rgb(238,141,52);
   color: white;
   border: none;
+  width: 130px;
+  position: relative;
+  right: 5px;
+  height: 50px;
 }
