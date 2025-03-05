@@ -133,6 +133,10 @@ table {
   color: black;
 }
 
+.orange-text {
+  color: rgb(238,141,52);
+}
+
 /******************************************
 /* GRID
 /*******************************************/
@@ -165,6 +169,17 @@ table {
   padding-top: 20px;
   width: 100px;
   font-size: 1.3em;
+}
+
+/******************************************
+/* ABOUT
+/*******************************************/
+
+.aboutSection {
+  background-image: url(images/pie&fruit-about.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 650px;
 }
 
 /******************************************
