@@ -137,7 +137,10 @@ table {
   color: rgb(238,141,52);
 }
 
-
+.aboutSection p {
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
 
 /******************************************
 /* GRID
@@ -182,12 +185,16 @@ table {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 650px;
-  padding: 100px;
+  
 }
 
 .aboutSection section {
   background-color: rgba(255, 255, 255, 0.9);
   width: 50%;
+  position: relative;
+  top: 100px;
+  left: 600px;
+  padding: 20px;
 }
 
 /******************************************
@@ -221,6 +228,6 @@ table {
 
 /* 
 TEMPORARY HIDE SO I DON'T HAVE TO KEEP SCROLLING EVERY REFRESH JESUS */
-.hero {
+.hero, .aboutSection {
   display: none;
 }
