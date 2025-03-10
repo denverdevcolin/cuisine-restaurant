@@ -96,6 +96,29 @@ table {
 }
 
 /******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+.heading-bold-font {
+  font: 700 4em 'PT Serif';
+}
+
+.nav, .navbar a {
+  text-decoration: none;
+  font: 300 1em 'PT Serif';
+  color: black;
+}
+
+.orange-text {
+  color: rgb(238,141,52);
+}
+
+.aboutSection p {
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
+
+/******************************************
 /* HEADER/NAV
 /*******************************************/
 
@@ -120,33 +143,18 @@ table {
 }
 
 /******************************************
-/* TYPOGRAPHY
-/*******************************************/
-
-.heading-bold-font {
-  font: 700 4em 'PT Serif';
-}
-
-.nav, .navbar a {
-  text-decoration: none;
-  font: 300 1em 'PT Serif';
-  color: black;
-}
-
-.orange-text {
-  color: rgb(238,141,52);
-}
-
-.aboutSection p {
-  letter-spacing: 1px;
-  font-size: 1.2em;
-}
-
-/******************************************
 /* GRID
 /*******************************************/
 
+.container {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
 
+.col-1-4 {
+  
+}
 
 /******************************************
 /* HERO
@@ -196,6 +204,25 @@ table {
   left: 600px;
   padding: 20px;
 }
+
+/******************************************
+/* Menu
+/*******************************************/
+
+.menu {
+  background-color: rgb(240, 240, 240);
+  padding: 50px;
+}
+
+.menu-items {
+  float: left;
+}
+
+.container ul {
+  
+}
+
+
 
 /******************************************
 /* BUTTONS
