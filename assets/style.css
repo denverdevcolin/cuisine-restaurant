@@ -119,7 +119,7 @@ table {
 }
 
 /******************************************
-/* HEADER/NAV
+/* NAV
 /*******************************************/
 
 .nav div, .navbar li {
@@ -134,12 +134,22 @@ table {
   margin: 10px 0 0 50px;
 }
 
-.navbar li {
+.primary-nav li {
   margin: 30px;
 }
 
-.navbar ul {
+.primary-nav ul {
   margin-left: 60px;
+}
+
+.navbar li {
+  margin: 30px;
+  border: 1px solid red;
+}
+
+.navbar ul {
+  width: 100%;
+  height: 75px;
 }
 
 /******************************************
@@ -153,7 +163,8 @@ table {
 }
 
 .col-1-4 {
-  
+  float: left;
+  margin: 0 auto;
 }
 
 /******************************************
@@ -211,16 +222,16 @@ table {
 
 .menu {
   background-color: rgb(240, 240, 240);
-  padding: 50px;
 }
 
 .menu-items {
-  float: left;
+  width: 100%;
 }
 
-.container ul {
+.menu-items img {
   
 }
+
 
 
 
