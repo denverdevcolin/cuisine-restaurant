@@ -90,18 +90,15 @@ table {
 /* TYPOGRAPHY
 /*******************************************/
 
-/* .heading-bold-font {
-  font: 700 4em 'PT Serif';
+.heading-bold-font {
+  font: 700 2em 'PT Serif';
 }
+/*
 
 .nav, .navbar a {
   text-decoration: none;
   font: 300 1em 'PT Serif';
   color: black;
-}
-
-.orange-text {
-  color: rgb(238,141,52);
 }
 
 .aboutSection p {
@@ -113,7 +110,7 @@ table {
 BASE STYLES
 ********************/
 
-header, .hero {
+header, .hero, .menu {
   background-color: rgb(241,245,248);
 }
 
@@ -121,6 +118,20 @@ header, .hero {
   background-image: url('images/hero-fruit.jpg');
   background-size: cover;
   /* background-repeat: no-repeat; */
+}
+
+/* .about-section {
+  background-image: url('images/pie&fruit-about.jpeg');
+  background-size: cover;
+} */
+
+.orange-button {
+  background-color: rgb(238,141,52);
+  color: white; 
+}
+
+.orange-text {
+  color: rgb(238,141,52);
 }
 
 /***************************** 
@@ -132,7 +143,7 @@ MOBILE
   HEADER/NAV
   *************/
 
-  nav {
+  header nav {
     padding: 1rem;
     display: flex;
     background-color: rgb(34,27,49);
@@ -238,7 +249,60 @@ MOBILE
     margin: 3em 0;
   }
 
+  #hero-icon-container span {
+    margin-left: 1.3em;
+  }
+
+  /*************
+  About/Intro
+  *************/
+
+  .about-section section {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about-section .orange-text {
+    font-size: 1.4em;
+  }
+
+  .about-section p {
+    padding: .5em 0;
+  }
+
+  /*************
+  MENU
+  *************/
+
+  .menu {
+    margin: 2em 0;
+    padding: 2em 0;
+  }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .menu-nav-bottom-border {
+    border-bottom: 1px solid black;
+    
+  }
+
+  .menu-nav-bottom-border ul {
+    display: flex;
+  }
+
+  .menu-nav-bottom-border li {
+    margin: 0 auto;
+    padding: .5em 0;
+  }
+
 }
+
+
+
 
 /***********************************
 Tablet and larger
@@ -275,17 +339,7 @@ Tablet and larger
   }
 }
 
-/* .nav div, .navbar li {
-  float: left;
-}
-
-.nav div img {
-  width: 100%;
-}
-
-.nav div {
-  margin: 10px 0 0 50px;
-}
+/* 
 
 .primary-nav li {
   margin: 30px;
