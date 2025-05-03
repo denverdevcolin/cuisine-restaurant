@@ -13,26 +13,35 @@ hamMenu.addEventListener('click', () => {
 
 // menu highlight //
 
-// onclick, add class for orange text and bottom border
-// remove black border?
+let breakfast = document.getElementById("breakfast");
+let lunch = document.getElementById("lunch");
+let dinner = document.getElementById("dinner");
+let dessert = document.getElementById("dessert");
 
 function toggleBreakfast() {
-    let element = document.getElementById("breakfast");
-    element.classList.toggle("orange-text-active");
-
-  }
+    breakfast.classList.add("orange-text-active");
+    lunch.classList.remove("orange-text-active");
+    dinner.classList.remove("orange-text-active");
+    dessert.classList.remove("orange-text-active");
+}
 
 function toggleLunch() {
-    let element = document.getElementById("lunch");
-    element.classList.toggle("orange-text-active");
+    breakfast.classList.remove("orange-text-active");
+    lunch.classList.add("orange-text-active");
+    dinner.classList.remove("orange-text-active");
+    dessert.classList.remove("orange-text-active");
 }
 
 function toggleDinner() {
-    let element = document.getElementById("dinner");
-    element.classList.toggle("orange-text-active");
+    breakfast.classList.remove("orange-text-active");
+    lunch.classList.remove("orange-text-active");
+    dinner.classList.add("orange-text-active");
+    dessert.classList.remove("orange-text-active");
 }
 
 function toggleDessert() {
-    let element = document.getElementById("dessert");
-    element.classList.toggle("orange-text-active");
+    breakfast.classList.remove("orange-text-active");
+    lunch.classList.remove("orange-text-active");
+    dinner.classList.remove("orange-text-active");
+    dessert.classList.add("orange-text-active");
 }

@@ -308,12 +308,14 @@ MOBILE
 
   .menu-nav-bottom-border ul {
     display: flex;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
   }
 
   .menu-nav-bottom-border li {
+    padding: .5em;  /* might need to change for viewport widths */
+    border-bottom: 1px solid black;
     margin: 0 auto;
-    padding: 1em 0 .5em 0;
+    padding-top: 1em;
   }
 
   .orange-text-active {
