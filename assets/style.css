@@ -313,7 +313,14 @@ MOBILE
 
   .menu-nav-bottom-border li {
     margin: 0 auto;
+    padding: 1em 0 .5em 0;
+  }
+
+  .orange-text-active {
+    margin: 0 auto;
     padding-top: 1em;
+    color: rgb(238,141,52);
+    border-bottom: 1px solid rgb(238,141,52) !important;
   }
 
   .grid-container img {
