@@ -81,7 +81,7 @@ table {
 /* FONT-AWESOME ICONS
 /*******************************************/
 
-.fa-brands {
+.fa-brands, .fa-phone {
   color: rgb(238,141,52);
 }
 
@@ -327,6 +327,26 @@ MOBILE
 
   .grid-container img {
     width: 100%;
+  }
+
+  /************** 
+  hours and phone 
+  ***********************/
+
+  .col-1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .col-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+  }
+
+  .xtra-space {
+    padding: .5em 0;
   }
 
 }
