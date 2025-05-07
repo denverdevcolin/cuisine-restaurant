@@ -45,3 +45,13 @@ function toggleDessert() {
     dinner.classList.remove("orange-text-active");
     dessert.classList.add("orange-text-active");
 }
+
+/// PICTURE OVERLAY ///
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}

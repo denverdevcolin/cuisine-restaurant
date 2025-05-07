@@ -329,6 +329,10 @@ MOBILE
     width: 100%;
   }
 
+  #overlay {
+    background-color: rgba(0,0,0,.5);
+  }
+
   /************** 
   hours and phone 
   ***********************/
@@ -388,8 +392,12 @@ MOBILE
 .col-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
 }
 
+.col-2 p {
+  padding: .2em 0;
+}
 
 
 /***********************************
