@@ -93,18 +93,16 @@ table {
 .heading-bold-font {
   font: 700 2em 'PT Serif';
 }
-/*
 
-.nav, .navbar a {
-  text-decoration: none;
-  font: 300 1em 'PT Serif';
-  color: black;
+.orange-text {
+  color: rgb(238,141,52);
 }
 
-.aboutSection p {
-  letter-spacing: 1px;
-  font-size: 1.2em;
-} */
+.hero h1 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  /* padding: 1.5em 3em 1em 1em; */
+}
 
 /********************
 BASE STYLES
@@ -128,18 +126,12 @@ header, .hero, .menu {
   padding: 3em 4em 1em 1em;
 }
 
-.hero h1 {
-  font-size: 2.5em;
-  text-transform: capitalize;
-  /* padding: 1.5em 3em 1em 1em; */
-}
-
-.fa-magnifying-glass {
+/* .fa-magnifying-glass {
   position: relative;
   left: 140px;
   top: 2px;
   color: gray;
-}
+} */
 
 .hero form {
   margin-top: 2em;
@@ -164,17 +156,13 @@ header, .hero, .menu {
   color: white; 
 }
 
-.orange-text {
-  color: rgb(238,141,52);
-}
-
-.img-container {
+/* .img-container {
   width: 50%;
 }
 
 .img-container img {
   width: 100%;
-}
+} */
 
 /***************************** 
 MOBILE
@@ -185,13 +173,18 @@ MOBILE
   HEADER/NAV
   *************/
 
+  header, .img-container, .img-container img {
+    max-height: 76px;
+  }
+
   header nav {
-    padding: 1rem;
+    padding: 1em;
     display: flex;
     background-color: rgb(34,27,49);
     position: absolute;
     top: 0;
     right: 0;
+    max-height: 75px;
   }
   
   .off-screen-menu {
@@ -221,7 +214,7 @@ MOBILE
   }
   
   .ham-menu {
-    height: 65px; /* to match image */
+    min-height: 50px;
     width: 50px;
     margin-left: auto;
     position: relative;
@@ -260,8 +253,6 @@ MOBILE
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
   }
-
-
 
   /*************
   About/Intro
@@ -329,9 +320,19 @@ MOBILE
     width: 100%;
   }
 
-  #overlay {
-    background-color: rgba(0,0,0,.5);
-  }
+  /* #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  } */
 
   /************** 
   hours and phone 
@@ -409,10 +410,6 @@ Tablet and larger
     display: flex;
   }
 
-  nav {
-    display: none;
-  }
-
   .off-screen-menu {
     background-color: rgb(241,245,248);
     height: 97px;
@@ -440,116 +437,15 @@ Tablet and larger
 /* GRID
 /*******************************************/
 
-/* .container {
-  margin: 0 auto;
-  width: 60%;
-  text-align: center;
-}
 
-.col-1-4 {
-  float: left;
-  margin: 0 auto;
-} */
 
 /******************************************
 /* HERO
 /*******************************************/
 
-/* .hero {
-  background-image: url(images/hero-fruit.jpg);
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 650px;
-}
 
-.welcome {
-  padding: 100px;
-}
-
-.welcome h1 {
-  text-align: left;
-  width: 50%;
-}
-
-.welcome span {
-  float: left;
-  padding-top: 20px;
-  width: 100px;
-  font-size: 1.3em;
-} */
 
 /******************************************
 /* ABOUT
 /*******************************************/
 
-/* .aboutSection {
-  background-image: url(images/pie&fruit-about.jpeg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 650px;
-  
-}
-
-.aboutSection section {
-  background-color: rgba(255, 255, 255, 0.9);
-  width: 50%;
-  position: relative;
-  top: 100px;
-  left: 600px;
-  padding: 20px;
-} */
-
-/******************************************
-/* Menu
-/*******************************************/
-
-/* .menu {
-  background-color: rgb(240, 240, 240);
-}
-
-.menu-items {
-  width: 100%;
-}
-
-.menu-items img {
-  
-} */
-
-
-
-
-/******************************************
-/* BUTTONS
-/*******************************************/
-
-/* .welcome form {
-  margin-top: 30px;
-}
-
-.welcome input {
-  width: 40%;
-  height: 50px;
-  padding-left: 30px;
-  border-top-left-radius: 7.5px;
-  border-bottom-left-radius: 7.5px;
-  border: 1px solid gray;
-}
-
-.orange-button {
-  background-color: rgb(238,141,52);
-  color: white;
-  border: none;
-  width: 130px;
-  position: relative;
-  right: 5px;
-  height: 50px;
-  border-top-right-radius: 7.5px;
-  border-bottom-right-radius: 7.5px;
-} */
-
-/* 
-TEMPORARY HIDE SO I DON'T HAVE TO KEEP SCROLLING EVERY REFRESH JESUS */
-/* .hero, .aboutSection {
-  display: none;
-} */
