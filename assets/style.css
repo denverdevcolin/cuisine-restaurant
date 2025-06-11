@@ -489,6 +489,7 @@ Tablet and larger
     flex-direction: column;
     justify-content: center;
     align-items: end;
+    margin-right: 1em;
   }
 
   .off-screen-menu li {
@@ -501,17 +502,106 @@ Tablet and larger
     font-size: 1.2em;
     text-transform: uppercase;
   }
+
+  .about-section {
+    margin: 2em;
+  }
+
+  .about-section section {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about-section .orange-text {
+    font-size: 1.4em;
+  }
+
+  .about-section p {
+    padding: .5em 0;
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+
+  .menu {
+    margin: 2em 0;
+    padding: 2em 0;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-container img {
+    width: 100%;
+  }
+
+  .col-1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .col-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+  }
+
+  .xtra-space {
+    padding: .5em 0;
+  }
+
+  .col-2 {
+    margin-bottom: 3em;
+  }
+
+  .col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+
+  .col-2 p {
+    padding: .2em 0;
+  }
+
+  footer {
+    margin-top: auto;
+    padding-top: 3em;
+    text-align: center;
+  }
+
+  footer ul {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+  }
+
+  footer ul + ul li {
+    padding: 1em;
+  }
+
+  footer li {
+    margin: 0 auto;
+  }
+
+  .footer-list_item {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .footer-social_icons {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1.5em;
+  }
 }
 
-
-
-/******************************************
-/* HERO
-/*******************************************/
-
-
-
-/******************************************
-/* ABOUT
-/*******************************************/
 
